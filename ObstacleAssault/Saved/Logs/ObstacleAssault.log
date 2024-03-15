@@ -1708,3 +1708,737 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.03.15-17.06.38:428][381]LogHttp: Warning: 0000052A730E5000: libcurl info message cache 34 (Closing connection)
 [2024.03.15-17.06.38:428][381]LogHttp: Warning: 0000052A730E5000: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.15-17.06.38:428][381]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 0 (Found bundle for host: 0x52757960810 [serially])
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 6 (Closing connection)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 9 (  Trying 34.239.74.5:443...)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.239.74.5) port 443)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 34 (Closing connection)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: 0000052A730E2800: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.09.38:806][922]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-17.10.38:181][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.15-17.10.38:281][ 99]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto1
+[2024.03.15-17.10.38:281][ 99]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main_Auto15E318CA24A3F8B8B39D0638564474698.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Autosaves/Game/Main_Auto1.umap'
+[2024.03.15-17.10.38:287][ 99]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Autosaves/Game/Main_Auto1.umap is in the /Temp path, will not scan.
+[2024.03.15-17.10.38:287][ 99]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Main_Auto1 is in the /Temp path, will not scan.
+[2024.03.15-17.10.38:287][ 99]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Main_Auto1 is in the /Temp path, will not scan.
+[2024.03.15-17.10.38:287][ 99]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.113
+[2024.03.15-17.10.38:287][ 99]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.113
+[2024.03.15-17.13.07:391][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.13.07:449][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.15-17.13.07:555][622]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.15-17.13.07:556][622]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main52FDB6E248A69479D0CCF1AD336D9AF7.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.15-17.13.07:568][622]LogFileHelpers: Saving map 'Main' took 0.146
+[2024.03.15-17.13.07:586][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms
+[2024.03.15-17.13.07:588][622]AssetCheck: New page: Asset Save: Main
+[2024.03.15-17.13.07:588][622]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.15-17.15.37:387][ 31]LogEditorClassViewer: Warning: Class /Game/LearningKit_Robots/ReadMe.ReadMe_C has parent /Script/IntroTutorials.EditorTutorial, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.15-17.16.17:784][ 31]LogSlate: Window 'Select Path' being destroyed
+[2024.03.15-17.16.39:266][ 31]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2024.03.15-17.16.39:287][ 31]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CollisionCylinder) Not registered. Aborting.
+[2024.03.15-17.16.39:288][ 31]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CharMoveComp) Not registered. Aborting.
+[2024.03.15-17.16.39:288][ 31]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CharacterMesh0) Not registered. Aborting.
+[2024.03.15-17.16.39:296][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.15-17.16.39:360][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.03.15-17.16.39:364][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.16.39:364][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.16.39:383][ 31]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.15-17.16.39:527][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_E2.T_Default_E2 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.59892 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.39:529][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_MotorA...
+[2024.03.15-17.16.39:533][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_GlideWheel...
+[2024.03.15-17.16.39:542][ 31]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Bump_Metal_v3...
+[2024.03.15-17.16.39:557][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_MetalPolished_BC.T_EnvTile_MetalPolished_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.39:563][ 31]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Approaching-object_V2...
+[2024.03.15-17.16.39:611][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_PowerBrickA...
+[2024.03.15-17.16.39:643][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_MetalBrushed_ARM.T_EnvTile_MetalBrushed_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.39:655][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_MetalPolished_ARM.T_EnvTile_MetalPolished_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.39:707][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_CarbonFiber_BC.T_EnvTile_CarbonFiber_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.39:814][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_WheelA...
+[2024.03.15-17.16.39:896][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_MetalBrushed_BC.T_EnvTile_MetalBrushed_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.40:034][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_SensorA...
+[2024.03.15-17.16.40:089][ 31]LogStaticMesh: Built static mesh [0.56s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_MotorA.SM_KitRobot_MotorA
+[2024.03.15-17.16.40:251][ 31]LogStaticMesh: Display: Building static mesh SM_KitRobot_SensorB...
+[2024.03.15-17.16.40:335][ 31]LogStaticMesh: Built static mesh [0.80s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_GlideWheel.SM_KitRobot_GlideWheel
+[2024.03.15-17.16.40:353][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Robots/Textures/T_Sensor_BG.T_Sensor_BG (TFO_AutoDXT, 1024x256 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.40:357][ 31]LogAudio: Display: Chunk sizes for SoundWave /Game/LearningKit_Robots/Audio/Bump_Metal_v3.Bump_Metal_v3: Chunk0=28 bytes, Chunk1-N=256k
+[2024.03.15-17.16.40:359][ 31]LogAudio: Display: Chunk sizes for SoundWave /Game/LearningKit_Robots/Audio/Approaching-object_V2.Approaching-object_V2: Chunk0=28 bytes, Chunk1-N=256k
+[2024.03.15-17.16.40:378][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_CarbonFiber_N.T_EnvTile_CarbonFiber_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.40:480][ 31]LogTexture: Display: Building textures: /Game/LearningKit_Games/MaterialLibrary/Tileable/T_EnvTile_CarbonFiber_ARM.T_EnvTile_CarbonFiber_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.16.40:689][ 31]LogStaticMesh: Display: Building static mesh PhAT_FloorBox...
+[2024.03.15-17.16.40:692][ 31]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2024.03.15-17.16.40:722][ 31]LogStaticMesh: Built static mesh [1.11s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_PowerBrickA.SM_KitRobot_PowerBrickA
+[2024.03.15-17.16.40:943][ 31]LogViewport: Scene viewport resized to 732x388, mode Windowed.
+[2024.03.15-17.16.41:076][ 31]LogAutomationController: Ignoring very large delta of 63.74 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.16.41:143][ 33]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.16.41:278][ 35]LogStaticMesh: Built static mesh [1.25s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_SensorA.SM_KitRobot_SensorA
+[2024.03.15-17.16.41:501][ 40]LogStaticMesh: Built static mesh [1.25s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_SensorB.SM_KitRobot_SensorB
+[2024.03.15-17.16.42:510][100]LogStaticMesh: Built static mesh [2.70s] /Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_WheelA.SM_KitRobot_WheelA
+[2024.03.15-17.16.46:704][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.16.49:656][524]LogViewport: Scene viewport resized to 730x406, mode Windowed.
+[2024.03.15-17.16.49:702][526]LogViewport: Scene viewport resized to 548x277, mode Windowed.
+[2024.03.15-17.16.49:765][527]LogViewport: Scene viewport resized to 470x222, mode Windowed.
+[2024.03.15-17.16.49:810][528]LogViewport: Scene viewport resized to 467x220, mode Windowed.
+[2024.03.15-17.16.50:343][560]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.03.15-17.16.51:621][634]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2024.03.15-17.19.02:936][392]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.19.02:953][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.19.02:953][392]BlueprintLog: Warning: Blueprint failed to compile:  ThirdPersonCharacter
+[2024.03.15-17.19.08:751][392]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.03.15-17.19.08:796][393]LogAutomationController: Ignoring very large delta of 5.87 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.19.11:617][547]LogSlate: Window 'Message Log' being destroyed
+[2024.03.15-17.19.11:622][547]LogSlate: Window 'Message Log' being destroyed
+[2024.03.15-17.19.17:374][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.19.17:444][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.19.17:479][883]LogSavePackage: Moving output files for package: /Game/BP_ThirdPersonCharacter
+[2024.03.15-17.19.17:479][883]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/BP_ThirdPersonCharacter23A4ECCE4EFB0533D0CC65B3B02B16E7.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ThirdPersonCharacter.uasset'
+[2024.03.15-17.19.17:491][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 311 ms)
+[2024.03.15-17.19.17:492][883]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.03.15-17.19.17:492][883]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.03.15-17.19.21:390][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.19.21:449][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.15-17.19.21:548][110]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.15-17.19.21:548][110]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main3CA701744B6CAD02430CCC872413EB71.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.15-17.19.21:560][110]LogFileHelpers: Saving map 'Main' took 0.147
+[2024.03.15-17.19.21:573][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 494 ms)
+[2024.03.15-17.19.21:576][110]AssetCheck: New page: Asset Save: Main
+[2024.03.15-17.19.21:576][110]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.15-17.19.23:616][232]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.19.23:625][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.19.23:625][232]BlueprintLog: Warning: Blueprint failed to compile:  ThirdPersonCharacter
+[2024.03.15-17.19.27:087][232]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2024.03.15-17.19.27:087][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.19.27:088][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.19.27:179][232]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.03.15-17.19.27:216][232]LogSlate: Took 0.001195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.15-17.19.27:391][233]LogAutomationController: Ignoring very large delta of 3.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.19.33:458][594]LogSlate: Window 'Message Log' being destroyed
+[2024.03.15-17.19.33:466][594]LogSlate: Window 'Message Log' being destroyed
+[2024.03.15-17.19.40:122][992]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.19.40:122][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.19.44:390][240]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.20.45:019][529]Cmd: STAT FPS
+[2024.03.15-17.20.46:891][634]Cmd: STAT FPS
+[2024.03.15-17.21.00:269][412]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: ================================================
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Total job queries 790, among them cache hits 35 (4.43%)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Tracking 750 distinct input hashes that result in 422 distinct outputs (56.27%)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: RAM used: 1.36 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Shaders Compiled: 750
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Jobs assigned 750, completed 750 (100%)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Average time worker was idle: 25.92 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Time job spent in pending queue: average 14.30 s, longest 33.64 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Job execution time: average 3.65 s, max 8.72 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Job life time (pending + execution): average 17.95 s, max 34.26
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Shader code size: average 6.403 KiB, min 160 B, max 30.527 KiB
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 58.39 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Jobs were issued in 181 batches (only local compilation was used), average 4.14 jobs/batch
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Average processing rate: 12.84 jobs/sec
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Total thread time: 367.099 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Total thread preprocess time: 32.073 s
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Percentage time preprocessing: 8.74%
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Effective parallelization: 6.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 1.34 sec, max 3.10 sec, min 0.41 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   13 times, average 1.11 sec, max 3.04 sec, min 0.33 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   44 times, average 0.90 sec, max 3.19 sec, min 0.17 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly (compiled    4 times, average 0.80 sec, max 1.83 sec, min 0.46 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   15 times, average 0.78 sec, max 1.75 sec, min 0.08 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.83% of total time (compiled   44 times, average 0.90 sec, max 3.19 sec, min 0.17 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.66% of total time (compiled   42 times, average 0.76 sec, max 3.05 sec, min 0.26 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.48% of total time (compiled   24 times, average 0.69 sec, max 0.84 sec, min 0.49 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.24% of total time (compiled   25 times, average 0.62 sec, max 2.88 sec, min 0.16 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display:                                                 FLumenCardVS - 3.94% of total time (compiled   13 times, average 1.11 sec, max 3.04 sec, min 0.33 sec)
+[2024.03.15-17.21.01:024][453]LogShaderCompilers: Display: ================================================
+[2024.03.15-17.22.12:964][764]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.15-17.22.12:964][764]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.22.12:964][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.22.21:713][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.15-17.22.30:233][282]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.15-17.22.30:248][283]LogAutomationController: Ignoring very large delta of 8.57 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.22.33:335][443]Cmd: DELETE
+[2024.03.15-17.22.33:340][443]Cmd: ACTOR DELETE
+[2024.03.15-17.22.33:351][443]LogEditorActor: Deleted Actor: BP_ThirdPersonCharacter_C
+[2024.03.15-17.22.33:369][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.15-17.22.33:373][443]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2024.03.15-17.22.35:515][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.15-17.22.46:195][570]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.15-17.22.46:247][570]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+	Asset Type: Blueprint
+[2024.03.15-17.22.46:524][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.15-17.22.46:567][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.15-17.22.46:580][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.15-17.22.46:592][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.15-17.22.46:605][571]LogAutomationController: Ignoring very large delta of 11.12 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.22.53:492][971]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2024.03.15-17.22.53:493][971]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2024.03.15-17.22.53:494][971]LogActorFactory: Actor Factory spawned Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter as actor: ThirdPersonCharacter_C /Game/Main.Main:PersistentLevel.ThirdPersonCharacter_C_2
+[2024.03.15-17.22.53:495][971]LogActorFactory: Actor Factory spawned Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter as actor: ThirdPersonCharacter_C /Game/Main.Main:PersistentLevel.ThirdPersonCharacter_C_2
+[2024.03.15-17.22.55:527][ 50]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2024.03.15-17.22.55:527][ 50]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2024.03.15-17.22.55:530][ 50]LogActorFactory: Actor Factory spawned Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter as actor: ThirdPersonCharacter_C /Game/Main.Main:PersistentLevel.ThirdPersonCharacter_C_3
+[2024.03.15-17.22.55:531][ 50]LogActorFactory: Actor Factory spawned Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter as actor: ThirdPersonCharacter_C /Game/Main.Main:PersistentLevel.ThirdPersonCharacter_C_3
+[2024.03.15-17.22.57:152][135]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.23.30:459][101]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.24.43:575][931]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.25.58:401][889]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.26.00:716][ 28]EditorErrors: New page: Actor attachment
+[2024.03.15-17.26.23:275][190]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.26.37:189][746]LogEditorClassViewer: Warning: Class /Game/LearningKit_Robots/ReadMe.ReadMe_C has parent /Script/IntroTutorials.EditorTutorial, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.15-17.26.54:001][746]LogSlate: Window 'Select Path' being destroyed
+[2024.03.15-17.26.57:973][746]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2024.03.15-17.26.57:986][746]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CollisionCylinder) Not registered. Aborting.
+[2024.03.15-17.26.57:986][746]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CharMoveComp) Not registered. Aborting.
+[2024.03.15-17.26.57:986][746]LogActorComponent: UnregisterComponent: (/Game/BP_ThirdPersonCharacter.Default__BP_ThirdPersonCharacter_C:CharacterMesh0) Not registered. Aborting.
+[2024.03.15-17.26.58:007][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.03.15-17.26.58:069][746]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.03.15-17.26.58:070][746]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.26.58:071][746]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.26.58:224][746]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.03.15-17.26.58:283][747]LogAutomationController: Ignoring very large delta of 21.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.27.18:791][966]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.27.33:429][844]EditorErrors: New page: Actor attachment
+[2024.03.15-17.28.47:909][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.28.47:973][ 70]LogSavePackage: Moving output files for package: /Game/BP_ThirdPersonCharacter
+[2024.03.15-17.28.47:973][ 70]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/BP_ThirdPersonCharacter5C61D79C4C1A9BDE143C3E83015D74A1.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ThirdPersonCharacter.uasset'
+[2024.03.15-17.28.47:982][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 567 ms)
+[2024.03.15-17.28.47:984][ 70]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.03.15-17.28.47:984][ 70]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.03.15-17.28.55:072][489]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.28.55:080][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.28.55:080][489]BlueprintLog: Warning: Blueprint failed to compile:  ThirdPersonCharacter
+[2024.03.15-17.29.04:720][489]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.03.15-17.29.04:726][489]PIE: New page: PIE session: Main (Mar. 15, 2024, 9:29:04 a.m.)
+[2024.03.15-17.29.04:731][489]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.15-17.29.04:732][489]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.03.15-17.29.04:733][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.15-17.29.04:758][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024810s)
+[2024.03.15-17.29.04:758][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.024861s)
+[2024.03.15-17.29.04:771][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.15-17.29.04:773][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.29.04:773][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.29.04:773][489]LogAIModule: Creating AISystem for world Main
+[2024.03.15-17.29.04:774][489]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2024.03.15-17.29.04:774][489]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-17.29.04:774][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.15-17.29.04:774][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-17.29.04:775][489]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-17.29.04:775][489]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-17.29.04:775][489]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-17.29.04:777][489]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-17.29.04:801][489]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.15-17.29.04:801][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-17.29.04:801][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-17.29.04:801][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-17.29.04:802][489]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.15-17.29.04:802][489]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.15-17.29.04:804][489]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.15-17.29.04:804][489]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.15-17.29.04:804][489]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.15-17.29.04:804][489]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2024.03.15-17.29.04:804][489]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.15-17.29.04:809][489]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.03.15-17.29.04:820][489]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.15-13.29.04
+[2024.03.15-17.29.06:381][489]LogWorld: Bringing up level for play took: 1.571270
+[2024.03.15-17.29.06:384][489]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.03.15-17.29.06:404][489]PIE: Server logged in
+[2024.03.15-17.29.06:405][489]PIE: Play in editor total start time 11.324 seconds.
+[2024.03.15-17.29.06:662][489]LogAutomationController: Ignoring very large delta of 11.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.29.06:662][490]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076564 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2024.03.15-17.29.31:098][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.29.31:098][947]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.15-17.29.31:098][947]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.29.31:100][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.29.31:106][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-17.29.31:110][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.29.31:127][947]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-17.29.31:127][947]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.15-17.29.31:127][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.15-17.29.31:129][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.15-17.29.31:133][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.29.31:140][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.15-17.29.31:267][948]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.03.15-17.29.31:309][948]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.29.40:394][487]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.30.19:009][929]Cmd: DELETE
+[2024.03.15-17.30.19:009][929]Cmd: ACTOR DELETE
+[2024.03.15-17.30.19:014][929]LogEditorActor: Deleted Actor: PlayerStart
+[2024.03.15-17.30.19:027][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.15-17.30.19:030][929]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2024.03.15-17.30.22:034][106]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.31.03:731][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.31.03:823][886]LogSavePackage: Moving output files for package: /Game/BP_ThirdPersonCharacter
+[2024.03.15-17.31.03:824][886]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/BP_ThirdPersonCharacterE73A69AC41CF949D77FCA3BFDB6695D9.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ThirdPersonCharacter.uasset'
+[2024.03.15-17.31.03:832][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 668 ms)
+[2024.03.15-17.31.03:833][886]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.03.15-17.31.03:833][886]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.03.15-17.31.14:086][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.31.14:095][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.31.14:095][ 48]PIE: New page: PIE session: Main (Mar. 15, 2024, 9:31:14 a.m.)
+[2024.03.15-17.31.14:095][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.15-17.31.14:119][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024499s)
+[2024.03.15-17.31.14:119][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.024533s)
+[2024.03.15-17.31.14:133][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.15-17.31.14:135][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.31.14:135][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.31.14:135][ 48]LogAIModule: Creating AISystem for world Main
+[2024.03.15-17.31.14:136][ 48]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2024.03.15-17.31.14:136][ 48]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-17.31.14:136][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.15-17.31.14:136][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-17.31.14:136][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-17.31.14:136][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-17.31.14:136][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-17.31.14:139][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-17.31.14:162][ 48]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.15-17.31.14:162][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-17.31.14:162][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-17.31.14:162][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-17.31.14:164][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.15-17.31.14:164][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.15-17.31.14:166][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.15-17.31.14:166][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.15-17.31.14:166][ 48]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.15-17.31.14:166][ 48]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2024.03.15-17.31.14:166][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.15-17.31.14:168][ 48]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.03.15-17.31.14:178][ 48]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.15-13.31.14
+[2024.03.15-17.31.15:711][ 48]LogWorld: Bringing up level for play took: 1.542626
+[2024.03.15-17.31.15:713][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.03.15-17.31.15:715][ 48]PIE: Server logged in
+[2024.03.15-17.31.15:716][ 48]PIE: Play in editor total start time 1.621 seconds.
+[2024.03.15-17.31.25:001][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.31.25:001][599]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.15-17.31.25:001][599]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.31.25:003][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.31.25:008][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-17.31.25:012][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.31.25:031][599]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-17.31.25:031][599]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.15-17.31.25:031][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.15-17.31.25:033][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.15-17.31.25:037][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.31.25:043][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.15-17.31.25:166][600]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.03.15-17.31.25:216][600]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.31.33:699][ 88]LogViewport: Scene viewport resized to 500x281, mode Windowed.
+[2024.03.15-17.31.35:189][177]Cmd: DELETE
+[2024.03.15-17.31.35:189][177]Cmd: ACTOR DELETE
+[2024.03.15-17.31.35:194][177]LogEditorActor: Deleted Actor: CameraActor
+[2024.03.15-17.31.35:220][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.15-17.31.35:222][177]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.03.15-17.31.38:419][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.31.38:427][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.31.38:427][369]PIE: New page: PIE session: Main (Mar. 15, 2024, 9:31:38 a.m.)
+[2024.03.15-17.31.38:427][369]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.15-17.31.38:449][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021668s)
+[2024.03.15-17.31.38:449][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.021699s)
+[2024.03.15-17.31.38:465][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.15-17.31.38:466][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.31.38:466][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.31.38:467][369]LogAIModule: Creating AISystem for world Main
+[2024.03.15-17.31.38:467][369]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2024.03.15-17.31.38:467][369]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-17.31.38:467][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.15-17.31.38:467][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-17.31.38:468][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-17.31.38:468][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-17.31.38:468][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-17.31.38:471][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-17.31.38:493][369]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.15-17.31.38:493][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-17.31.38:494][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-17.31.38:494][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-17.31.38:494][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.15-17.31.38:494][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.15-17.31.38:496][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.15-17.31.38:496][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.15-17.31.38:496][369]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.15-17.31.38:496][369]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2024.03.15-17.31.38:496][369]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.15-17.31.38:499][369]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.03.15-17.31.38:508][369]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.15-13.31.38
+[2024.03.15-17.31.40:072][369]LogWorld: Bringing up level for play took: 1.573123
+[2024.03.15-17.31.40:075][369]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.03.15-17.31.40:076][369]PIE: Server logged in
+[2024.03.15-17.31.40:077][369]PIE: Play in editor total start time 1.65 seconds.
+[2024.03.15-17.31.46:111][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.31.46:111][725]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.15-17.31.46:111][725]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.31.46:113][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.31.46:117][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-17.31.46:123][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.31.46:141][725]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-17.31.46:141][725]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.15-17.31.46:141][725]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.15-17.31.46:144][725]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.15-17.31.46:148][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.31.46:152][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.15-17.31.46:191][726]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.03.15-17.32.55:635][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.03.15-17.32.55:736][503]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto2
+[2024.03.15-17.32.55:736][503]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main_Auto2D390F537495A97AE88E3C1A6FDD15414.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Autosaves/Game/Main_Auto2.umap'
+[2024.03.15-17.32.55:741][503]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Autosaves/Game/Main_Auto2.umap is in the /Temp path, will not scan.
+[2024.03.15-17.32.55:741][503]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Main_Auto2 is in the /Temp path, will not scan.
+[2024.03.15-17.32.55:741][503]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Main_Auto2 is in the /Temp path, will not scan.
+[2024.03.15-17.32.55:741][503]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.118
+[2024.03.15-17.32.55:741][503]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.118
+[2024.03.15-17.33.16:908][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2024.03.15-17.33.16:908][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.33.16:908][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.37.26:101][820]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2024.03.15-17.37.26:107][820]LogBlueprint: Error: [AssetLog] C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Reset Orientation and Position . Please refresh node or break links to remove pin.
+[2024.03.15-17.37.26:107][820]LogBlueprint: Error: [AssetLog] C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Could not find a function named "ResetOrientationAndPosition" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Position
+[2024.03.15-17.37.26:199][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 0 (Found bundle for host: 0x527579603c0 [serially])
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 6 (Closing connection)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 9 (  Trying 34.235.183.231:443...)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.235.183.231) port 443)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 34 (Closing connection)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: 0000052B54D32D00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.38.38:062][248]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-17.38.44:676][644]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2024.03.15-17.38.44:771][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.15-17.39.10:858][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.39.10:885][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.39.10:958][926]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.03.15-17.39.10:958][926]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/ThirdPersonCharacterE2DD693B461B5C156EAD078AC99894B3.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.03.15-17.39.10:968][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 778 ms)
+[2024.03.15-17.39.10:969][926]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2024.03.15-17.39.10:969][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2024.03.15-17.39.17:272][298]LogViewport: Scene viewport resized to 463x281, mode Windowed.
+[2024.03.15-17.39.32:928][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-17.39.32:995][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.15-17.39.33:116][222]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.15-17.39.33:117][222]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main5D1E86C24590FFAA0C83D6A678A2B6CB.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.15-17.39.33:127][222]LogFileHelpers: Saving map 'Main' took 0.175
+[2024.03.15-17.39.33:135][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 984 ms)
+[2024.03.15-17.39.33:140][222]AssetCheck: New page: Asset Save: Main
+[2024.03.15-17.39.33:140][222]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.15-17.39.34:691][315]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.39.34:705][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.39.34:706][315]PIE: New page: PIE session: Main (Mar. 15, 2024, 9:39:34 a.m.)
+[2024.03.15-17.39.34:741][315]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.15-17.39.34:769][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028075s)
+[2024.03.15-17.39.34:769][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.028129s)
+[2024.03.15-17.39.34:790][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.15-17.39.34:790][315]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.39.34:790][315]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.39.34:791][315]LogAIModule: Creating AISystem for world Main
+[2024.03.15-17.39.34:792][315]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2024.03.15-17.39.34:792][315]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-17.39.34:792][315]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.15-17.39.34:792][315]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-17.39.34:792][315]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-17.39.34:792][315]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-17.39.34:792][315]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-17.39.34:795][315]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-17.39.34:831][315]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.15-17.39.34:831][315]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-17.39.34:832][315]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-17.39.34:832][315]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-17.39.34:832][315]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.03.15-17.39.34:832][315]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.03.15-17.39.34:834][315]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.03.15-17.39.34:834][315]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.03.15-17.39.34:834][315]LogInit: FAudioDevice initialized with ID 5.
+[2024.03.15-17.39.34:834][315]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2024.03.15-17.39.34:834][315]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.15-17.39.34:838][315]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.03.15-17.39.34:850][315]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.15-13.39.34
+[2024.03.15-17.39.36:554][315]LogWorld: Bringing up level for play took: 1.716083
+[2024.03.15-17.39.36:557][315]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.15-17.39.36:558][315]PIE: Server logged in
+[2024.03.15-17.39.36:560][315]PIE: Play in editor total start time 1.854 seconds.
+[2024.03.15-17.39.36:732][316]LogAutomationController: Ignoring very large delta of 2.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.15-17.39.50:072][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.39.50:072][103]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.15-17.39.50:072][103]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.39.50:074][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.39.50:079][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-17.39.50:084][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.39.50:104][103]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-17.39.50:104][103]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.15-17.39.50:105][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.15-17.39.50:107][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.15-17.39.50:111][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.39.50:115][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.15-17.39.50:246][104]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.15-17.39.50:310][104]LogViewport: Scene viewport resized to 463x281, mode Windowed.
+[2024.03.15-17.40.44:388][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.40.54:818][999]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_01...
+[2024.03.15-17.40.54:826][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_M.TEX_H_A_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:852][999]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_01) ...
+[2024.03.15-17.40.54:854][999]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_01.MESH_PC_01
+[2024.03.15-17.40.54:880][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_S.TEX_H_A_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:888][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_R.TEX_H_A_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:915][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_SC.TEX_H_A_01_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:918][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_D_A.TEX_P_00_D_A (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:924][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_D.TEX_H_A_01_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:965][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_N.TEX_H_A_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.54:967][999]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_M.TEX_P_00_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:357][ 20]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_S.TEX_P_00_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:382][ 21]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_M.TEX_T_03_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:416][ 22]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_R.TEX_P_00_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:424][ 23]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_N.TEX_P_00_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:445][ 24]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_D_1.TEX_T_03_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:452][ 24]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_SC.TEX_P_00_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:527][ 27]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_N.TEX_T_03_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:553][ 28]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_R.TEX_T_03_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:603][ 31]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_S.TEX_T_03_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:845][ 44]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_SC.TEX_T_03_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:882][ 46]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_M.TEX_L_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:907][ 47]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_S.TEX_L_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.55:946][ 49]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_R.TEX_L_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.56:030][ 54]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_N.TEX_L_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.56:042][ 54]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_3.TEX_L_01_D_3 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.56:085][ 57]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_1.TEX_L_01_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: ================================================
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Total job queries 818, among them cache hits 35 (4.28%)
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Tracking 752 distinct input hashes that result in 424 distinct outputs (56.38%)
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: RAM used: 1.36 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Shaders Compiled: 752
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Jobs assigned 760, completed 752 (98.95%)
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Average time worker was idle: 107.74 s
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Time job spent in pending queue: average 14.12 s, longest 33.64 s
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Job execution time: average 3.64 s, max 8.72 s
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Job life time (pending + execution): average 17.90 s, max 34.26
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Shader code size: average 6.39 KiB, min 160 B, max 30.527 KiB
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 60.05 s
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Jobs were issued in 191 batches (only local compilation was used), average 3.98 jobs/batch
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Average processing rate: 12.52 jobs/sec
+[2024.03.15-17.40.56:585][ 83]LogShaderCompilers: Display: Total thread time: 367.932 s
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: Total thread preprocess time: 32.447 s
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: Percentage time preprocessing: 8.82%
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: Effective parallelization: 6.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 1.34 sec, max 3.10 sec, min 0.41 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   13 times, average 1.11 sec, max 3.04 sec, min 0.33 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   44 times, average 0.90 sec, max 3.19 sec, min 0.17 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly (compiled    4 times, average 0.80 sec, max 1.83 sec, min 0.46 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   15 times, average 0.78 sec, max 1.75 sec, min 0.08 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.81% of total time (compiled   44 times, average 0.90 sec, max 3.19 sec, min 0.17 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.64% of total time (compiled   42 times, average 0.76 sec, max 3.05 sec, min 0.26 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.47% of total time (compiled   24 times, average 0.69 sec, max 0.84 sec, min 0.49 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.24% of total time (compiled   25 times, average 0.62 sec, max 2.88 sec, min 0.16 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display:                                                 FLumenCardVS - 3.93% of total time (compiled   13 times, average 1.11 sec, max 3.04 sec, min 0.33 sec)
+[2024.03.15-17.40.56:586][ 83]LogShaderCompilers: Display: ================================================
+[2024.03.15-17.40.57:981][153]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.41.13:317][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_S.TEX_A_01_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:318][ 55]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_03...
+[2024.03.15-17.41.13:319][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_M.TEX_A_01_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:323][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_D_1.TEX_A_02_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:326][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_R.TEX_A_01_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:331][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_D_1.TEX_A_01_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:341][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_D_5.TEX_A_01_D_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:351][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_N.TEX_A_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:352][ 55]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_03) ...
+[2024.03.15-17.41.13:365][ 55]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_03.MESH_PC_03
+[2024.03.15-17.41.13:396][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_M.TEX_A_02_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:408][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_D_1.TEX_A_04_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:410][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_M.TEX_A_04_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:410][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_R.TEX_A_02_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:412][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_S.TEX_A_02_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:424][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_D_3.TEX_A_02_D_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:434][ 55]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_N.TEX_A_02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:501][ 56]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_R.TEX_A_04_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:504][ 56]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_S.TEX_A_04_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:519][ 57]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_D_3.TEX_A_04_D_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:526][ 57]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_N.TEX_A_04_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:585][ 60]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_D_2.TEX_T_03_D_2 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.13:690][ 65]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_4.TEX_L_01_D_4 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.14:453][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.41.26:950][850]LogSkeletalMesh: Building Skeletal Mesh MESH_T_01...
+[2024.03.15-17.41.26:974][850]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_T_01) ...
+[2024.03.15-17.41.26:983][850]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_M.TEX_T_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.26:996][850]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_S.TEX_T_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.27:043][850]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_R.TEX_T_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.27:082][850]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_D_1.TEX_T_01_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.27:131][850]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_N.TEX_T_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.15-17.41.27:264][850]LogSkeletalMesh: Built Skeletal Mesh [0.31s] /Game/SCK_Casual01/Models/MESH_T_01.MESH_T_01
+[2024.03.15-17.41.27:324][851]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 0 (Found bundle for host: 0x527579603c0 [serially])
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 6 (Closing connection)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 9 (  Trying 34.239.74.5:443...)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.239.74.5) port 443)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 34 (Closing connection)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: 0000052A70B7A500: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-17.41.38:075][487]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11AF8ACB-4092-3A50-AB43-41A50C631EB9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-17.42.54:373][134]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-17.42.54:382][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-17.42.54:382][134]PIE: New page: PIE session: Main (Mar. 15, 2024, 9:42:54 a.m.)
+[2024.03.15-17.42.54:421][134]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.15-17.42.54:444][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022831s)
+[2024.03.15-17.42.54:444][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.022870s)
+[2024.03.15-17.42.54:456][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.15-17.42.54:463][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-17.42.54:463][134]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-17.42.54:463][134]LogAIModule: Creating AISystem for world Main
+[2024.03.15-17.42.54:464][134]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2024.03.15-17.42.54:464][134]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-17.42.54:464][134]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.15-17.42.54:464][134]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-17.42.54:464][134]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-17.42.54:464][134]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-17.42.54:464][134]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-17.42.54:466][134]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-17.42.54:490][134]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.15-17.42.54:490][134]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-17.42.54:490][134]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-17.42.54:490][134]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-17.42.54:491][134]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.03.15-17.42.54:491][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.03.15-17.42.54:492][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.03.15-17.42.54:492][134]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.03.15-17.42.54:492][134]LogInit: FAudioDevice initialized with ID 6.
+[2024.03.15-17.42.54:492][134]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2024.03.15-17.42.54:492][134]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.15-17.42.54:495][134]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.03.15-17.42.54:505][134]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.15-13.42.54
+[2024.03.15-17.42.56:041][134]LogWorld: Bringing up level for play took: 1.545677
+[2024.03.15-17.42.56:043][134]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.03.15-17.42.56:045][134]PIE: Server logged in
+[2024.03.15-17.42.56:045][134]PIE: Play in editor total start time 1.664 seconds.
+[2024.03.15-17.43.12:651][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.43.12:651][123]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.15-17.43.12:652][123]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-17.43.12:653][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.43.12:659][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-17.43.12:665][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-17.43.12:679][123]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-17.43.12:679][123]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.15-17.43.12:679][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.15-17.43.12:682][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.15-17.43.12:687][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-17.43.12:692][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.15-17.43.12:800][124]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.03.15-17.43.12:846][124]LogViewport: Scene viewport resized to 463x281, mode Windowed.
