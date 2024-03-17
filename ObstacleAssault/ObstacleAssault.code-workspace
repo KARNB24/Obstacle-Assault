@@ -1,0 +1,1315 @@
+{
+	"folders": [
+		{
+			"name": "ObstacleAssault",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "C:\\Program Files (x86)\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "ObstacleAssault Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssault LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssault LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssaultEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"label": "ObstacleAssaultEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ObstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch ObstacleAssault (Debug)",
+				"request": "launch",
+				"program": "C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "ObstacleAssault Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssault (DebugGame)",
+				"request": "launch",
+				"program": "C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "ObstacleAssault Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssault (Development)",
+				"request": "launch",
+				"program": "C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "ObstacleAssault Win64 Development Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssault (Test)",
+				"request": "launch",
+				"program": "C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "ObstacleAssault Win64 Test Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssault (Shipping)",
+				"request": "launch",
+				"program": "C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "ObstacleAssault Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssaultEditor (Debug)",
+				"request": "launch",
+				"program": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "ObstacleAssaultEditor Win64 Debug Build",
+				"args": [
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject"
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssaultEditor (DebugGame)",
+				"request": "launch",
+				"program": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "ObstacleAssaultEditor Win64 DebugGame Build",
+				"args": [
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject"
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ObstacleAssaultEditor (Development)",
+				"request": "launch",
+				"program": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "ObstacleAssaultEditor Win64 Development Build",
+				"args": [
+					"C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject"
+				],
+				"cwd": "C:\\Program Files (x86)\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files (x86)\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=C:\\Users\\KBStu\\Desktop\\Personal Projects\\Unreal Engine 5\\Projects\\ObstacleAssault\\ObstacleAssault\\ObstacleAssault.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "C:\\Program Files (x86)\\UE_5.3"
+			}
+		]
+	}
+}
