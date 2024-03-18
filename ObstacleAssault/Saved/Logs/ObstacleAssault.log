@@ -44324,3 +44324,758 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.18-21.58.27:606][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
 [2024.03.18-21.58.27:618][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
 [2024.03.18-21.58.27:716][527]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 0 (Found bundle for host: 0x4f037970930 [serially])
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 9 (  Trying 54.91.95.121:443...)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.91.95.121) port 443)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.01.36:991][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: 000004F0BF6FBE00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.01.36:993][ 34]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 0 (Found bundle for host: 0x4f037970ed0 [serially])
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 9 (  Trying 34.237.233.119:443...)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.237.233.119) port 443)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: 000004F0BF6F6900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.05.37:049][754]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 0 (Found bundle for host: 0x4f0379707e0 [serially])
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 9 (  Trying 52.0.94.108:443...)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.0.94.108) port 443)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.09.37:106][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: 000004F0BF6F5A00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.09.37:107][474]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.10.37:354][654]LogDerivedDataCache: C:/Users/KBStu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.301 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 8003 files in 10038 folders with total size 350 MiB.
+[2024.03.18-22.11.18:553][845]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.18-22.11.23:155][116]LogLiveCoding: Display:    Creating library C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_16.lib and object C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_16.exp
+[2024.03.18-22.11.23:959][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.18-22.11.24:496][149]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2024.03.18-22.11.24:496][149]LogLiveCoding: Display: Live coding succeeded
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 0 (Found bundle for host: 0x4f037970000 [serially])
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.12.36:828][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 9 (  Trying 52.22.177.119:443...)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.22.177.119) port 443)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.12.36:829][758]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 0 (Found bundle for host: 0x4f037970e10 [serially])
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 9 (  Trying 44.217.212.216:443...)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (44.217.212.216) port 443)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.17.36:925][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: 000004F0BA53F500: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.17.36:926][658]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 0 (Found bundle for host: 0x4f037970420 [serially])
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 9 (  Trying 54.84.229.176:443...)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.84.229.176) port 443)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: 000004F0BA536900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.20.36:972][198]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 0 (Found bundle for host: 0x4f037970000 [serially])
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 9 (  Trying 54.157.10.6:443...)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.157.10.6) port 443)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: 000004F0BA537300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.24.37:022][918]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 0 (Found bundle for host: 0x4f037970150 [serially])
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 9 (  Trying 3.82.137.211:443...)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.82.137.211) port 443)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: 000004F0BA534100: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.27.37:071][458]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.28.16:105][575]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.18-22.28.20:875][848]LogLiveCoding: Display:    Creating library C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_17.lib and object C:\Users\KBStu\Desktop\Personal Projects\Unreal Engine 5\Projects\ObstacleAssault\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_17.exp
+[2024.03.18-22.28.21:749][896]LogClass: UPackage /Script/ObstacleAssault Reload.
+[2024.03.18-22.28.21:749][896]LogClass: UClass MovingPlatform Reload.
+[2024.03.18-22.28.21:749][896]LogClass: Could not find existing class MovingPlatform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2024.03.18-22.28.21:765][896]Re-instancing MovingPlatform after reload.
+[2024.03.18-22.28.22:041][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.03.18-22.28.22:532][897]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.03.18-22.28.22:532][897]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.03.18-22.29.16:873][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.29.17:067][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2024.03.18-22.29.17:193][254]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.18-22.29.17:195][254]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/MainDA924E0A4864E8A74E421AAC99E43C3A.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.18-22.29.17:214][254]LogFileHelpers: Saving map 'Main' took 0.293
+[2024.03.18-22.29.17:234][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 361 ms (total: 4.41 sec)
+[2024.03.18-22.29.17:244][254]AssetCheck: New page: Asset Save: Main
+[2024.03.18-22.29.17:244][254]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.18-22.29.22:451][561]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.18-22.29.22:466][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-22.29.22:466][561]PIE: New page: PIE session: Main (Mar. 18, 2024, 2:29:22 p.m.)
+[2024.03.18-22.29.22:466][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.18-22.29.22:495][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028206s)
+[2024.03.18-22.29.22:495][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.028262s)
+[2024.03.18-22.29.22:537][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.18-22.29.22:548][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.29.22:548][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-22.29.22:549][561]LogAIModule: Creating AISystem for world Main
+[2024.03.18-22.29.22:549][561]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2024.03.18-22.29.22:549][561]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-22.29.22:549][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.18-22.29.22:549][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-22.29.22:549][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-22.29.22:549][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-22.29.22:549][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-22.29.22:553][561]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-22.29.22:583][561]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.18-22.29.22:583][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-22.29.22:583][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-22.29.22:583][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-22.29.22:584][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.03.18-22.29.22:584][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.03.18-22.29.22:587][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.03.18-22.29.22:587][561]LogInit: FAudioDevice initialized with ID 38.
+[2024.03.18-22.29.22:587][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.03.18-22.29.22:587][561]LogAudio: Display: Audio Device (ID: 38) registered with world 'Main'.
+[2024.03.18-22.29.22:587][561]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.03.18-22.29.22:592][561]LogLoad: Game class is 'BP_ObstacleAssaultGameMode_C'
+[2024.03.18-22.29.22:605][561]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.18-18.29.22
+[2024.03.18-22.29.24:153][561]LogWorld: Bringing up level for play took: 1.561283
+[2024.03.18-22.29.24:157][561]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_1
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_4
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_PushingCube_C_7
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_PushingCube_C_3
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_PushingCube_C_5
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_PushingCube_C_11
+[2024.03.18-22.29.24:161][561]LogTemp: Display: BeginPlay: BP_PushingCube_C_9
+[2024.03.18-22.29.24:161][561]PIE: Server logged in
+[2024.03.18-22.29.24:162][561]PIE: Play in editor total start time 1.698 seconds.
+[2024.03.18-22.29.38:818][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.29.38:818][423]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.18-22.29.38:818][423]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-22.29.38:820][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.29.38:829][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-22.29.38:836][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.29.38:855][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.29.38:858][423]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.03.18-22.29.38:858][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.03.18-22.29.38:861][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.03.18-22.29.38:874][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2024.03.18-22.29.38:952][424]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.03.18-22.30.18:691][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.30.18:785][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.18-22.30.18:914][ 13]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.18-22.30.18:915][ 13]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/MainF36EFBC649E9292C6A83E6AA977103F0.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.18-22.30.18:948][ 13]LogFileHelpers: Saving map 'Main' took 0.221
+[2024.03.18-22.30.18:963][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 271 ms (total: 4.68 sec)
+[2024.03.18-22.30.18:969][ 13]AssetCheck: New page: Asset Save: Main
+[2024.03.18-22.30.18:969][ 13]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 0 (Found bundle for host: 0x4f037970240 [serially])
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 9 (  Trying 34.198.195.143:443...)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.198.195.143) port 443)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: 000004F0BA612300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.30.36:834][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.31.37:199][776]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform
+[2024.03.18-22.31.37:207][776]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.31.37:207][776]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-22.31.37:331][776]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.03.18-22.31.37:434][776]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.03.18-22.31.44:208][150]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.18-22.31.44:213][150]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: ================================================
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Total job queries 261, among them cache hits 101 (38.70%)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Tracking 157 distinct input hashes that result in 85 distinct outputs (54.14%)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: RAM used: 372.52 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Shaders Compiled: 29
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Jobs assigned 32, completed 29 (90.62%)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Average time worker was idle: 2257.49 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 0.92 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 0.91 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Job life time (pending + execution): average 0.73 s, max 1.34
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Shader code size: average 4.543 KiB, min 1.355 KiB, max 7.477 KiB
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.57 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Average processing rate: 6.35 jobs/sec
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Total thread time: 10.378 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Total thread preprocess time: 1.033 s
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Percentage time preprocessing: 9.96%
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Effective parallelization: 2.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.43 sec, max 0.56 sec, min 0.37 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.42 sec, max 0.55 sec, min 0.34 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.41 sec, max 0.52 sec, min 0.33 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    7 times, average 0.16 sec, max 0.21 sec, min 0.12 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 33.03% of total time (compiled    8 times, average 0.43 sec, max 0.56 sec, min 0.37 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.77% of total time (compiled    8 times, average 0.41 sec, max 0.52 sec, min 0.33 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.47% of total time (compiled    6 times, average 0.42 sec, max 0.55 sec, min 0.34 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.72% of total time (compiled    7 times, average 0.16 sec, max 0.21 sec, min 0.12 sec)
+[2024.03.18-22.32.31:321][439]LogShaderCompilers: Display: ================================================
+[2024.03.18-22.32.31:823][467]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 0 (Found bundle for host: 0x4f037970f00 [serially])
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 9 (  Trying 34.193.16.91:443...)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.193.16.91) port 443)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.33.36:839][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: 000004F0AEAA1400: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.33.36:840][ 44]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.34.47:912][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.34.47:962][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.34.47:998][ 11]LogSavePackage: Moving output files for package: /Game/BP_RotatingPlatform
+[2024.03.18-22.34.47:998][ 11]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/BP_RotatingPlatform9BDC7E9343F3192059CBEE91990A3495.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_RotatingPlatform.uasset'
+[2024.03.18-22.34.48:021][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 4.79 sec)
+[2024.03.18-22.34.48:023][ 11]AssetCheck: New page: Asset Save: BP_RotatingPlatform
+[2024.03.18-22.34.48:024][ 11]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 0 (Found bundle for host: 0x4f037970b70 [serially])
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 6 (Closing connection)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.36.36:722][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 9 (  Trying 54.172.164.248:443...)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.172.164.248) port 443)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 34 (Closing connection)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: 000004F0BD90E100: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-22.36.36:723][526]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B071AF479-444B-E454-F378-518AE05F7571%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1681ff644931e5ba2dd862a21f616761%7Cf86d86ce83144e6e9ed9ceb17319498d%7C775ccb44-b320-4a4d-b3a1-8b499e1143a0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-22.36.49:201][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.36.49:252][ 79]LogSavePackage: Moving output files for package: /Game/BP_RotatingPlatform
+[2024.03.18-22.36.49:253][ 79]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/BP_RotatingPlatform649DD8C64BD08C14E95F52BC74A6C9AF.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_RotatingPlatform.uasset'
+[2024.03.18-22.36.49:262][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 4.85 sec)
+[2024.03.18-22.36.49:264][ 79]AssetCheck: New page: Asset Save: BP_RotatingPlatform
+[2024.03.18-22.36.49:264][ 79]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform
+[2024.03.18-22.36.57:630][573]Cmd: DELETE
+[2024.03.18-22.36.57:630][573]Cmd: ACTOR DELETE
+[2024.03.18-22.36.57:637][573]LogEditorActor: Deleted Actor: BP_PushingCube_C
+[2024.03.18-22.36.57:664][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.18-22.36.57:671][573]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2024.03.18-22.37.21:853][995]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_RotatingPlatform.BP_RotatingPlatform_C
+[2024.03.18-22.37.21:854][995]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_RotatingPlatform.BP_RotatingPlatform_C
+[2024.03.18-22.37.21:856][995]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform as actor: BP_RotatingPlatform_C /Game/Main.Main:PersistentLevel.BP_RotatingPlatform_C_0
+[2024.03.18-22.37.21:857][995]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform as actor: BP_RotatingPlatform_C /Game/Main.Main:PersistentLevel.BP_RotatingPlatform_C_0
+[2024.03.18-22.37.28:175][361]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_RotatingPlatform.BP_RotatingPlatform_C
+[2024.03.18-22.37.28:175][361]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_RotatingPlatform.BP_RotatingPlatform_C
+[2024.03.18-22.37.28:178][361]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform as actor: BP_RotatingPlatform_C /Game/Main.Main:PersistentLevel.BP_RotatingPlatform_C_1
+[2024.03.18-22.37.28:179][361]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_RotatingPlatform.BP_RotatingPlatform as actor: BP_RotatingPlatform_C /Game/Main.Main:PersistentLevel.BP_RotatingPlatform_C_1
+[2024.03.18-22.38.03:044][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.38.03:147][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.18-22.38.03:289][364]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.18-22.38.03:292][364]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main236E68BA4DA3B83323A27B8C8F78AB96.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.18-22.38.03:310][364]LogFileHelpers: Saving map 'Main' took 0.235
+[2024.03.18-22.38.03:325][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 282 ms (total: 5.14 sec)
+[2024.03.18-22.38.03:332][364]AssetCheck: New page: Asset Save: Main
+[2024.03.18-22.38.03:332][364]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.18-22.38.30:097][760]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.18-22.38.30:097][760]LogPlayLevel: [PlayLevel] Compiling BP_RotatingPlatform before play...
+[2024.03.18-22.38.30:149][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.18-22.38.30:153][760]LogPlayLevel: PlayLevel: Blueprint regeneration took 55 ms (1 blueprints)
+[2024.03.18-22.38.30:153][760]PIE: New page: PIE session: Main (Mar. 18, 2024, 2:38:30 p.m.)
+[2024.03.18-22.38.30:153][760]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.18-22.38.30:187][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033475s)
+[2024.03.18-22.38.30:187][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.033563s)
+[2024.03.18-22.38.30:204][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.18-22.38.30:205][760]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.38.30:205][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-22.38.30:206][760]LogAIModule: Creating AISystem for world Main
+[2024.03.18-22.38.30:207][760]LogPlayLevel: PIE: World Init took: (0.002226s)
+[2024.03.18-22.38.30:207][760]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-22.38.30:208][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.18-22.38.30:208][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-22.38.30:208][760]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-22.38.30:209][760]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-22.38.30:209][760]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-22.38.30:214][760]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-22.38.30:245][760]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.18-22.38.30:247][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-22.38.30:247][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-22.38.30:247][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-22.38.30:249][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.03.18-22.38.30:249][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.03.18-22.38.30:251][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.03.18-22.38.30:251][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.03.18-22.38.30:251][760]LogInit: FAudioDevice initialized with ID 39.
+[2024.03.18-22.38.30:251][760]LogAudio: Display: Audio Device (ID: 39) registered with world 'Main'.
+[2024.03.18-22.38.30:251][760]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.03.18-22.38.30:255][760]LogLoad: Game class is 'BP_ObstacleAssaultGameMode_C'
+[2024.03.18-22.38.30:269][760]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.18-18.38.30
+[2024.03.18-22.38.31:859][760]LogWorld: Bringing up level for play took: 1.604665
+[2024.03.18-22.38.31:863][760]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_1
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_4
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_PushingCube_C_7
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_PushingCube_C_3
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_PushingCube_C_5
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_PushingCube_C_9
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_5
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_1
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_2
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_3
+[2024.03.18-22.38.31:867][760]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_4
+[2024.03.18-22.38.31:868][760]PIE: Server logged in
+[2024.03.18-22.38.31:869][760]PIE: Play in editor total start time 1.773 seconds.
+[2024.03.18-22.38.59:628][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.38.59:628][409]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.18-22.38.59:629][409]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-22.38.59:631][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.38.59:639][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-22.38.59:645][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.38.59:667][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.38.59:670][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.03.18-22.38.59:670][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.03.18-22.38.59:672][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.03.18-22.38.59:684][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.18-22.38.59:790][410]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.03.18-22.39.11:882][123]Cmd: DELETE
+[2024.03.18-22.39.11:883][123]Cmd: ACTOR DELETE
+[2024.03.18-22.39.11:893][123]LogEditorActor: Deleted Actor: BP_PushingCube_C
+[2024.03.18-22.39.11:914][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.03.18-22.39.11:918][123]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2024.03.18-22.39.42:546][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-22.39.42:546][896]PIE: New page: PIE session: Main (Mar. 18, 2024, 2:39:42 p.m.)
+[2024.03.18-22.39.42:546][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.18-22.39.42:575][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028445s)
+[2024.03.18-22.39.42:575][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.028483s)
+[2024.03.18-22.39.42:610][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2024.03.18-22.39.42:615][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-22.39.42:615][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-22.39.42:615][896]LogAIModule: Creating AISystem for world Main
+[2024.03.18-22.39.42:616][896]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2024.03.18-22.39.42:616][896]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-22.39.42:616][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.18-22.39.42:616][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-22.39.42:617][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-22.39.42:617][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-22.39.42:617][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-22.39.42:620][896]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-22.39.42:648][896]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Space Q45)
+[2024.03.18-22.39.42:649][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-22.39.42:649][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-22.39.42:649][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-22.39.42:650][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2024.03.18-22.39.42:650][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2024.03.18-22.39.42:652][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2024.03.18-22.39.42:652][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2024.03.18-22.39.42:652][896]LogInit: FAudioDevice initialized with ID 40.
+[2024.03.18-22.39.42:652][896]LogAudio: Display: Audio Device (ID: 40) registered with world 'Main'.
+[2024.03.18-22.39.42:652][896]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2024.03.18-22.39.42:657][896]LogLoad: Game class is 'BP_ObstacleAssaultGameMode_C'
+[2024.03.18-22.39.42:675][896]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.18-18.39.42
+[2024.03.18-22.39.44:359][896]LogWorld: Bringing up level for play took: 1.702449
+[2024.03.18-22.39.44:363][896]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_1
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_MovingPlatform_C_4
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_PushingCube_C_7
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_PushingCube_C_3
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_PushingCube_C_5
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_5
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_1
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_2
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_3
+[2024.03.18-22.39.44:367][896]LogTemp: Display: BeginPlay: BP_RotatingPlatform_C_4
+[2024.03.18-22.39.44:367][896]PIE: Server logged in
+[2024.03.18-22.39.44:368][896]PIE: Play in editor total start time 1.822 seconds.
+[2024.03.18-22.40.08:127][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.40.08:127][303]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.18-22.40.08:128][303]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-22.40.08:130][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.40.08:140][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-22.40.08:151][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-22.40.08:171][303]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.18-22.40.08:171][303]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2024.03.18-22.40.08:171][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.03.18-22.40.08:174][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.03.18-22.40.08:180][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-22.40.08:187][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.18-22.40.08:299][304]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.03.18-22.40.13:203][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.40.13:309][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.18-22.40.13:459][493]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.18-22.40.13:461][493]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/MainA341714B448A81AF82CB82B3613F1EE9.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.18-22.40.13:483][493]LogFileHelpers: Saving map 'Main' took 0.241
+[2024.03.18-22.40.13:499][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 296 ms (total: 5.43 sec)
+[2024.03.18-22.40.13:504][493]AssetCheck: New page: Asset Save: Main
+[2024.03.18-22.40.13:504][493]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.18-22.40.29:202][420]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.29:202][420]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.18-22.40.31:216][526]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.31:216][526]LogEditorTransaction: Undo Move Elements
+[2024.03.18-22.40.32:293][588]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.32:293][588]LogEditorTransaction: Undo Move Elements
+[2024.03.18-22.40.33:202][640]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.33:202][640]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.18-22.40.34:098][678]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.34:098][678]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.18-22.40.34:630][707]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.34:631][707]LogEditorTransaction: Undo Move Elements
+[2024.03.18-22.40.35:303][745]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.35:304][745]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.18-22.40.35:883][776]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.35:883][776]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.18-22.40.36:685][823]Cmd: TRANSACTION UNDO
+[2024.03.18-22.40.36:685][823]LogEditorTransaction: Undo Delete Elements
+[2024.03.18-22.40.40:986][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-22.40.41:089][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.03.18-22.40.41:245][ 67]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.18-22.40.41:246][ 67]LogSavePackage: Moving '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Saved/Main99F16DBF475F6CB4F85E319246686893.tmp' to '../../../../../Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap'
+[2024.03.18-22.40.41:270][ 67]LogFileHelpers: Saving map 'Main' took 0.239
+[2024.03.18-22.40.41:286][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 5.73 sec)
+[2024.03.18-22.40.41:293][ 67]AssetCheck: New page: Asset Save: Main
+[2024.03.18-22.40.41:293][ 67]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.18-22.41.35:721][179]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.03.18-22.41.35:866][179]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9904
+[2024.03.18-22.41.36:202][180]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b5a0b961-8b52-4401-94c4-37c0fcd137ac}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=174.58
+[2024.03.18-22.41.36:202][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.03.18-22.41.36:204][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
