@@ -7,7 +7,10 @@
 			"files": [
 				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Main.umap",
 				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_MovingPlatform.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_PushingCube.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ObstacleAssaultGameMode.uasset"
 			]
 		}
 	]
