@@ -11,7 +11,18 @@
 				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_MovingPlatform.uasset",
 				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_PushingCube.uasset",
 				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_ObstacleAssaultGameMode.uasset",
-				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_RotatingPlatform.uasset"
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_RotatingPlatform.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/BP_Sweeper.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/MainMenu.umap",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/MainMenu.umap",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/Background.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/W_MainMenu.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/MenuGameMode.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/W_ControlsMenu.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/UI/MainMenu_BuiltData.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/W_MainMenu.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/Background.uasset",
+				"C:/Users/KBStu/Desktop/Personal Projects/Unreal Engine 5/Projects/ObstacleAssault/ObstacleAssault/Content/L_MainMenuSeq.uasset"
 			]
 		}
 	]
