@@ -6,7 +6,7 @@ Welcome to Obstacle Assault, a thrilling game developed in Unreal Engine 5 where
 
 In Obstacle Assault, players control a character navigating through various obstacles, including moving platforms, pushing cubes, rotating platforms, and rotating sweepers. The goal is to skillfully maneuver through these obstacles to reach the finish line.
 
-https://github.com/KARNB24/ObstacleAssault/assets/59581104/6339eadb-d18c-42a1-bf17-f70fcb2d3522
+[View Demo](https://drive.google.com/file/d/1yC2_R8sjowRRU2yL4IJAIQ_4c10PhwTp/view?usp=sharing)
 
 ## Project Images
 
